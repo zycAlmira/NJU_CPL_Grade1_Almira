@@ -73,6 +73,72 @@ build main.exe: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.c.obj
   TARGET_IMPLIB = libmain.dll.a
   TARGET_PDB = main.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target work3
+
+
+#############################################
+# Order-only phony target for work3
+
+build cmake_object_order_depends_target_work3: phony || .
+
+build CMakeFiles/work3.dir/cpl-4/practise/practise3.c.obj: C_COMPILER__work3_unscanned_Debug C$:/Users/61760/OneDrive$ -$ 南京大学/Campus/编程/cpl-4/practise/practise3.c || cmake_object_order_depends_target_work3
+  DEP_FILE = CMakeFiles\work3.dir\cpl-4\practise\practise3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\work3.dir
+  OBJECT_FILE_DIR = CMakeFiles\work3.dir\cpl-4\practise
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target work3
+
+
+#############################################
+# Link the executable work3.exe
+
+build work3.exe: C_EXECUTABLE_LINKER__work3_Debug CMakeFiles/work3.dir/cpl-4/practise/practise3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\work3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = work3.exe
+  TARGET_IMPLIB = libwork3.dll.a
+  TARGET_PDB = work3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target practise4
+
+
+#############################################
+# Order-only phony target for practise4
+
+build cmake_object_order_depends_target_practise4: phony || .
+
+build CMakeFiles/practise4.dir/cpl-4/practise/practise4.c.obj: C_COMPILER__practise4_unscanned_Debug C$:/Users/61760/OneDrive$ -$ 南京大学/Campus/编程/cpl-4/practise/practise4.c || cmake_object_order_depends_target_practise4
+  DEP_FILE = CMakeFiles\practise4.dir\cpl-4\practise\practise4.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practise4.dir
+  OBJECT_FILE_DIR = CMakeFiles\practise4.dir\cpl-4\practise
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target practise4
+
+
+#############################################
+# Link the executable practise4.exe
+
+build practise4.exe: C_EXECUTABLE_LINKER__practise4_Debug CMakeFiles/practise4.dir/cpl-4/practise/practise4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\practise4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = practise4.exe
+  TARGET_IMPLIB = libpractise4.dll.a
+  TARGET_PDB = practise4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +167,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build main: phony main.exe
 
+build practise4: phony practise4.exe
+
+build work3: phony work3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +179,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Users/61760/OneDrive - 南京大学/Campus/编程/cmake-build-debug
 
-build all: phony main.exe
+build all: phony main.exe work3.exe practise4.exe
 
 # =============================================================================
 # Built-in targets
