@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpl_4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpl_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpl_4-Debug-407bebaba46610f626d3.json",
+					"name" : "cpl_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "notes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-notes-Debug-c9a474e7f2f8cde66e7f.json",
+					"name" : "notes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practise1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practise1-Debug-0b86b3a3a96fb60ac76e.json",
+					"name" : "practise1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practise2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practise2-Debug-a80dad62f7d227f66cd8.json",
+					"name" : "practise2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task1-Debug-0b6ed126defe5fcc7ca6.json",
+					"name" : "task1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2-Debug-9ff3dc01add6803fb80c.json",
+					"name" : "task2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3-Debug-7899dc4a9667b620726e.json",
+					"name" : "task3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task4-Debug-3a003262c4274b452739.json",
+					"name" : "task4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task4.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task4.2-Debug-bfb7bf79da8e4e1e1fa0.json",
+					"name" : "task4.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task5-Debug-c2ea3151a4b0786813c4.json",
+					"name" : "task5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task6-Debug-cf19fed5141a657a092b.json",
+					"name" : "task6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task7-Debug-1febff894cefaa5c06d1.json",
+					"name" : "task7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task8-Debug-359c467d0ff6ba6abeb2.json",
+					"name" : "task8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task8.chatgpt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task8.chatgpt-Debug-6dac5d821f47fbd7151b.json",
+					"name" : "task8.chatgpt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "work2.merge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-work2.merge-Debug-2e6492b2643e473557bf.json",
+					"name" : "work2.merge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "work3.insert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-work3.insert-Debug-a05f2f60a043493a0806.json",
+					"name" : "work3.insert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "works::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-works-Debug-1ffd639c482c37bab0d8.json",
+					"name" : "works",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/61760/OneDrive - \u5357\u4eac\u5927\u5b66/study/\u7f16\u7a0b/cpl-4/cmake-build-debug",
+		"source" : "C:/Users/61760/OneDrive - \u5357\u4eac\u5927\u5b66/study/\u7f16\u7a0b/cpl-4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
