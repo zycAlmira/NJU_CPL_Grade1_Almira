@@ -1,4 +1,21 @@
-"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\61760\OneDrive - 南京大学\Campus\编程" -B "C:\Users\61760\OneDrive - 南京大学\Campus\编程\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\61760\OneDrive - 南京大学\Campus\Program" -B "C:\Users\61760\OneDrive - 南京大学\Campus\Program\cmake-build-debug"
 -- Configuring done (0.3s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/61760/OneDrive - 南京大学/Campus/编程/cmake-build-debug
+CMake Error at CMakeLists.txt:13 (add_executable):
+  Cannot find source file:
+
+    model
+
+
+CMake Error at CMakeLists.txt:13 (add_executable):
+  No SOURCES given to target: task1
+
+
+CMake Error at CMakeLists.txt:14 (add_executable):
+  No SOURCES given to target: task111
+
+
+CMake Error at CMakeLists.txt:15 (add_executable):
+  No SOURCES given to target: model1
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

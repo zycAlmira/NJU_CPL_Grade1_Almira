@@ -1,7 +1,6 @@
 //
 // Created by 61760 on 24-
 #include <stdio.h>
-
 int main(void) {
     int tab[100][100] = {0};
     int a[100] = {0}, d;

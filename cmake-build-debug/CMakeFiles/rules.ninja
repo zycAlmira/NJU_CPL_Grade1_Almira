@@ -69,6 +69,63 @@ rule C_EXECUTABLE_LINKER__practise4_Debug
 
 
 #############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__practise5_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\61760\gcc\x86_64-14.2.0-release-mcf-seh-ucrt-rt_v12-rev0\mingw64\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__practise5_Debug
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\Users\61760\gcc\x86_64-14.2.0-release-mcf-seh-ucrt-rt_v12-rev0\mingw64\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__practise6_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\61760\gcc\x86_64-14.2.0-release-mcf-seh-ucrt-rt_v12-rev0\mingw64\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__practise6_Debug
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\Users\61760\gcc\x86_64-14.2.0-release-mcf-seh-ucrt-rt_v12-rev0\mingw64\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__try3_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\61760\gcc\x86_64-14.2.0-release-mcf-seh-ucrt-rt_v12-rev0\mingw64\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__try3_Debug
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\Users\61760\gcc\x86_64-14.2.0-release-mcf-seh-ucrt-rt_v12-rev0\mingw64\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
 # Rule for running custom commands.
 
 rule CUSTOM_COMMAND
@@ -80,7 +137,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\61760\OneDrive - 南京大学\Campus\编程" -B"C:\Users\61760\OneDrive - 南京大学\Campus\编程\cmake-build-debug"
+  command = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\61760\OneDrive - 南京大学\Campus\Program" -B"C:\Users\61760\OneDrive - 南京大学\Campus\Program\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

@@ -2,7 +2,6 @@
 // Created by 61760 on 24-10-21.
 //
 #include <stdio.h>
-#include <math.h>
 int main(void) {
     int n,c=0,b[2570]={0},max=0,maxx=0;
     char a[100000],d[257];

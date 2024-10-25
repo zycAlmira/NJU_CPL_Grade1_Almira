@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/61760/OneDrive - 南京大学/Campus/编程
+# Install script for directory: C:/Users/61760/OneDrive - 南京大学/Campus/Program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/61760/OneDrive - 南京大学/Campus/编程/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/61760/OneDrive - 南京大学/Campus/Program/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

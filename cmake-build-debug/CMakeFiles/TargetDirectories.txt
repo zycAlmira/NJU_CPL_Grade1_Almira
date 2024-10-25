@@ -1,5 +1,8 @@
-C:/Users/61760/OneDrive - 南京大学/Campus/编程/cmake-build-debug/CMakeFiles/main.dir
-C:/Users/61760/OneDrive - 南京大学/Campus/编程/cmake-build-debug/CMakeFiles/work3.dir
-C:/Users/61760/OneDrive - 南京大学/Campus/编程/cmake-build-debug/CMakeFiles/practise4.dir
-C:/Users/61760/OneDrive - 南京大学/Campus/编程/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/61760/OneDrive - 南京大学/Campus/编程/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/61760/OneDrive - 南京大学/Campus/Program/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/61760/OneDrive - 南京大学/Campus/Program/cmake-build-debug/CMakeFiles/work3.dir
+C:/Users/61760/OneDrive - 南京大学/Campus/Program/cmake-build-debug/CMakeFiles/practise4.dir
+C:/Users/61760/OneDrive - 南京大学/Campus/Program/cmake-build-debug/CMakeFiles/practise5.dir
+C:/Users/61760/OneDrive - 南京大学/Campus/Program/cmake-build-debug/CMakeFiles/practise6.dir
+C:/Users/61760/OneDrive - 南京大学/Campus/Program/cmake-build-debug/CMakeFiles/try3.dir
+C:/Users/61760/OneDrive - 南京大学/Campus/Program/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/61760/OneDrive - 南京大学/Campus/Program/cmake-build-debug/CMakeFiles/rebuild_cache.dir
