@@ -7,3 +7,4 @@ add_executable(model1
         model1.c)
 add_executable(model2 model2.c)
 add_executable(model3 model3.c)
+add_executable(model2.2 model2.2.c)
