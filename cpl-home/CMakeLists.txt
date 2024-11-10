@@ -4,3 +4,4 @@ project(C)
 set(CMAKE_C_STANDARD 17)
 
 add_executable(huanshu huanshu.c)
+add_executable(piano cmake-build-debug/piano.c)
