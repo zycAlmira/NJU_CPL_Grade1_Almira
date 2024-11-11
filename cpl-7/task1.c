@@ -23,9 +23,12 @@ int main(void){
             }
         }
     }
-    while(L>0){
+    while(1){
         value+=wine[b]*((L>max[b])?max[b]:L);
         L=L-max[b];
+        if(L<=0){
+            break;
+        }
         b++;
         if(b==n){
             break;
