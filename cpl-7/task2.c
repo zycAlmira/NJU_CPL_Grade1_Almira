@@ -1,33 +1,29 @@
-//
-// Created by 61760 on 24-11-9.
-//
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
-int main(void){
+int main(void) {
     int n;
-    scanf("%d",&n);
-    getchar();
-    for(int i=0;i<n;i++){
-        char a,input[1000]={0};
-        while((a=getchar())!='\n'){
-            if(abs(a-input[0])<=2&&a>input[0]){
-                for(int j=0;j<sizeof(input);j++)
-                {input[j]=input[j+1];}
-                }
-            else{
-                for(int j=sizeof(input);j>0;j--){
-                    input[j]=input[j-1];
-                }
-                input[0]=a;
-                }
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++) {
+        char a, arr[200010]={0},input[100005],x;
+        char* b=arr+100005;
+        scanf("%s",input);
+        for(x=0;x<strlen(input);x++){
+            a=input[x];
+            if(x==0){
+                *b=a;
+                continue;
             }
-        if(input[0]==0){
+            if ((a - *b)<= 3 && a > *b) {
+                b++;
+            } else {
+                b--;
+                *b = a;
+            }}
+        if (*b== 0) {
             printf("True\n");
-        }else{
-            printf("False\n");;
+        } else {
+            printf("False\n");
         }
-        memset(input,0,sizeof input);
-        }
+    }
     return 0;
 }
