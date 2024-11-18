@@ -1,43 +1,50 @@
 #include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
 #include <stdlib.h>
-#define MAX_INPUT_LEN 100005
-int main(void) {
-    int n, num = 1;
-    scanf("%d", &n);
-    getchar();
-    for (int i = 0; i < n; i++) {
-        char input[MAX_INPUT_LEN] = {0};
-        int num_elements = 0;
-        char first_char = '\0';
-        while (1) {
-            char a = getchar();
-            if (a == '\n' || a == EOF) {
-                break;
-            }
-            if (num_elements == 0 || abs(a - first_char) > 2 || a < first_char) {
-                if (num_elements > 0) {
-                    for (int j = num_elements - 1; j > 0; --j) {
-                        input[j] = input[j - 1];
-                    }
-                }
-                input[0] = a;
-                num_elements++;
-                first_char = a;
-            } else {
-                num_elements--;
-                if (num_elements > 0) {
-                    first_char = input[0];
-                }
-            }
+bool is_Pair(char left, char right)
+{
+    return (left == '(' && right == ')') ||
+           (left == '[' && right == ']') ||
+           (left == '{' && right == '}');
+}
+bool isBalanced(char *s)
+{
+    int length = strlen(s);
+    char *stack = (char *)malloc(length * sizeof(char));
+    int top = -1;
+    for (int i = 0; i < length; i++)
+    {
+        char c = s[i];
+        if (c == '(' || c == '[' || c == '{')
+        {
+            stack[++top] = c;
         }
+        else if (c == ')' || c == ']' || c == '}')
+        {
+            if (top == -1 || !is_Pair(stack[top], c))
+            {
+                free(stack);
+                return false;
+            }
+            top--;
+        }
+    }
+    bool result = (top == -1);
+    free(stack);
+    return result;
+}
 
-        if (num_elements == 0) {
-            printf("True\n");
-        } else {
-            printf("False\n");
-        }
+int main() {
+    int T;
+    scanf("%d", &T);
+
+    char s[100005];
+
+    for (int i = 0; i < T; i++) {
+        scanf("%s", s);
+        printf("%s\n", isBalanced(s) ? "True" : "False");
     }
 
     return 0;
 }
-
