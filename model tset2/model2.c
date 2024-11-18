@@ -22,7 +22,6 @@ int main() {
         count = (plus(arr[i], n, d, arr[w - 1 - i]) > cut(arr[i], n, d, arr[w - 1 - i])) ? cut(arr[i], n, d,
                                                                                                arr[w - 1 - i]) : plus(
                 arr[i], n, d, arr[w - 1 - i]);
-        printf("%d\n", count);
         if (count > n + 1) {
             printf("Impossible");
             return 0;
@@ -35,7 +34,7 @@ int main() {
 
 int plus(int a, int n, int d, int b) {
     int count = 0;
-    d = d % (n - 1);
+    d = d %n;
     while (a != b) {
         a = (a + d) % n;
         if (a == 0) {
@@ -51,9 +50,9 @@ int plus(int a, int n, int d, int b) {
 
 int cut(int a, int n, int d, int b) {
     int count = 0;
-    d = d % (n - 1);
+    d = d % n;
     while (a != b) {
-        a = (a + n - 1 - d) % n;
+        a = (a + n  - d) % n;
         if (a == 0) {
             a = n;
         }
