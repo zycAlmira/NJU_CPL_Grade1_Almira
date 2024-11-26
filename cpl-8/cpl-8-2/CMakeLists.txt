@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.29)
+project(C)
+
+set(CMAKE_C_STANDARD 17)
+add_executable(task-21 task-21.c)
+add_executable(task-22 task-22.c)
+add_executable(task-23.c task-23.c)
+add_executable(task-24.c task-24.c)
+add_executable(task-21.1 task-21.1.c)
+add_executable(task-24.1 task-24.1.c)
