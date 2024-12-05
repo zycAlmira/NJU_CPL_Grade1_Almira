@@ -4,3 +4,4 @@ project(C)
 set(CMAKE_C_STANDARD 17)
 
 add_executable(11_A 11_A.c)
+add_executable(11_B 11_B.c)
