@@ -3,7 +3,7 @@
   <component name="CMakePythonSetting">
     <option name="pythonIntegrationState" value="YES" />
   </component>
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/cpl-8/cpl-8-2">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/fxy-c-homework">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>
