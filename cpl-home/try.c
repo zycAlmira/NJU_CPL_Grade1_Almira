@@ -1,19 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-void _switch(int *arr,int n);
+#include <string.h>
+char s[3002][3002]={'\0'};
+void up(char *p,int a,int b);
+void down(char *p,int a,int b);
+void left(char *p,int a,int b);
+void right(char *p,int a,int b);
 int main(){
-    int n;
-    scanf("%d",&n);
-    int *arr=malloc(n*n*sizeof(int));
-    for(int i=0;i<(n*n);i++){
-        scanf("%d",arr+i);
-    }
-    _switch(arr,n);
-    for(int i=0;i<(n*n);i++){
-        printf("%d ",*(arr+i));
-        if((i+1)%n==0)
-            printf("\n");
-    }
-    return 0;
+   char *p=&(s[0][0]);
+   p+=35;
+   int a,b;
+   scanf("%d %d",a,b);
+   printf("%d",((p-(&s[0][0]))/a));
+   return  0;
 }
-void
